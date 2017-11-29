@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {  /*imagen aparece por defecto en el html */
+	[class*="col-"]{                       
+		width: 100%;   
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 1199px){ /* el que le da el ancho  */
+	[class*="col-"]{                       
+		width: 100%;
+		height: 100vh;
+    }
+   .sunny-day{
+   	 background-image: url(../img/dawn.png);
+   	 max-width: 100%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center; 	/*es para que achique la imagen a medida que la ventana disminuye */
+	 height: 100vh; /* es la que cambia  */
+   	  /* */
+    }
+   .cat_grande{
+   	content: url(../../assent/img/kitten-medium.png);  /* */
+    padding: 13px;
+    margin-left: 5.050em;
+    margin-top: 22.500em;
+   }
+}
+@media (max-width:767px ){   /* */
+	[class*="col-"]{                       
+		width: 100%;
+		height: 100vh;
+    }
+    .sunny-day{
+    background-image: url(../img/night.jpg);
+    max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 	/*es para que achique la imagen a medida que la ventana disminuye */
+	height: 100vh; /* */
+
+    }   
+    .cat_grande{
+    content:url(../../assent/img/kitten-small.png); /* */
+    padding: 13px;
+    margin-left: 5.050em;
+    margin-top: 22.500em;
+    }

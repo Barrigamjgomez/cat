@@ -1,0 +1,14 @@
+.contenedor1{
+background:url(../img/sunny-day.jpg); 
+max-width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 	/*es para que achique la imagen a medida que la ventana disminuye */
+height: 100vh; /* vh unidad que se ocupara para renponsive */
+}
+
+.cat_grande{
+	padding: 3.125em; /* para mover al gato en la imagen principal*/
+	margin-left: :/* mover elemento de izquierda a derecha */ 
+	margin-top: ; /* mover el elemento de arriba hacia abajo    */
+}
